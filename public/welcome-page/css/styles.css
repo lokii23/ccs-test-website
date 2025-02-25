@@ -694,12 +694,16 @@ progress {
   margin-bottom: 20px;
   width: 200%;
   padding-left: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 50, 50);
+  border-radius: 30px;
 }
 
 .col-auto a:hover{
   color: black;
   background-color: rgb(255, 174, 0);
   border-radius: 30px;
+  transition: ease .5s;
 }
 
 .col {

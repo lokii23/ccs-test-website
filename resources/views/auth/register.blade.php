@@ -9,18 +9,11 @@
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
 
-        <!-- Year -->
+        <!-- Year / Section-->
         <div class="mt-4">
-            <x-input-label for="year" :value="__('Year')" />
-            <x-text-input id="year" class="block mt-1 w-full" type="text" name="year" :value="old('year')" maxlength="1" required autocomplete="year" />
-            <x-input-error :messages="$errors->get('year')" class="mt-2" />
-        </div>
-
-        <!-- Section -->
-        <div class="mt-4">
-            <x-input-label for="section" :value="__('Section')" />
-            <x-text-input id="section" class="block mt-1 w-full" type="text" name="section" :value="old('section')" maxlength="2" required autocomplete="section" />
-            <x-input-error :messages="$errors->get('section')" class="mt-2" />
+            <x-input-label for="yearsec" :value="__('Year and Section')" />
+            <x-text-input id="yearsec" class="block mt-1 w-full" type="text" name="yearsec" :value="old('yearsec')" maxlength="2" required autocomplete="yearsec" />
+            <x-input-error :messages="$errors->get('yearsec')" class="mt-2" />
         </div>
 
         <!-- Email Address -->
